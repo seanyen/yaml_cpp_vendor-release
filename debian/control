@@ -1,0 +1,12 @@
+Source: ros-dashing-yaml-cpp-vendor
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-dashing-ament-cmake, ros-dashing-ros-workspace
+Homepage: https://github.com/jbeder/yaml-cpp
+Standards-Version: 3.9.2
+
+Package: ros-dashing-yaml-cpp-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-dashing-ros-workspace
+Description: Wrapper around yaml-cpp, it provides a fixed CMake module and an ExternalProject build of it.
