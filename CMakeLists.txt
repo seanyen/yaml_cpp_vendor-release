@@ -63,6 +63,14 @@ macro(build_yaml_cpp)
   )
 endmacro()
 
+find_package(yaml-cpp 0.6 QUIET)
+if(yaml-cpp_FOUND)
+  ament_package(
+    CONFIG_EXTRAS "yaml_cpp_vendor-extras.cmake.in"
+  )
+  return()
+endif()
+
 build_yaml_cpp()
 
 if(WIN32)
