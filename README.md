@@ -1,3 +1,26 @@
+## yaml_cpp_vendor (foxy) - 7.0.2-1
+
+The packages in the `yaml_cpp_vendor` repository were released into the `foxy` distro by running `/usr/bin/bloom-release -r foxy yaml_cpp_vendor` on `Wed, 27 May 2020 02:44:19 -0000`
+
+The `yaml_cpp_vendor` package was released.
+
+Version of package(s) in repository `yaml_cpp_vendor`:
+
+- upstream repository: https://github.com/ros2/yaml_cpp_vendor.git
+- release repository: https://github.com/ros2-gbp/yaml_cpp_vendor-release.git
+- rosdistro version: `7.0.1-1`
+- old version: `7.0.1-1`
+- new version: `7.0.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.20`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## yaml_cpp_vendor (foxy) - 7.0.1-1
 
 The packages in the `yaml_cpp_vendor` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --rosdistro foxy --track foxy yaml_cpp_vendor` on `Mon, 27 Apr 2020 23:04:04 -0000`
