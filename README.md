@@ -1,3 +1,26 @@
+## yaml_cpp_vendor (rolling) - 8.0.0-1
+
+The packages in the `yaml_cpp_vendor` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling yaml_cpp_vendor` on `Fri, 04 Feb 2022 13:26:31 -0000`
+
+The `yaml_cpp_vendor` package was released.
+
+Version of package(s) in repository `yaml_cpp_vendor`:
+
+- upstream repository: https://github.com/ros2/yaml_cpp_vendor.git
+- release repository: https://github.com/ros2-gbp/yaml_cpp_vendor-release.git
+- rosdistro version: `7.1.1-1`
+- old version: `7.1.1-1`
+- new version: `8.0.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## yaml_cpp_vendor (galactic) - 7.1.1-1
 
 The packages in the `yaml_cpp_vendor` repository were released into the `galactic` distro by running `/usr/bin/bloom-release -r galactic yaml_cpp_vendor` on `Tue, 07 Dec 2021 18:40:16 -0000`
